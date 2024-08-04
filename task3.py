@@ -85,7 +85,7 @@ def find_sum(node):
 
 # Вставка значень для створення збалансованого AVL-дерева
 root = None
-keys = [10, 20, 30, 25, 28, 27, 5, 15, 35, 40]
+keys = [10, 20, 30, 60, 40, 80, 50]
 
 for key in keys:
     root = insert(root, key)
